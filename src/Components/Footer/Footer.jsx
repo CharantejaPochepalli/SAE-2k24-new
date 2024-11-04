@@ -29,7 +29,7 @@ function Footer() {
               <p className="footer-contact">Durgapur, West Bengal, 713209</p>
               <div className="footer-contact flex-item">
                 <FaEnvelope />
-                <Link className="text-md anchor" to="saeindia@nitdgp.ac.in">saeindia@nitdgp.ac.in</Link>
+                <Link className="text-md anchor" to="mailto:saeindia@nitdgp.ac.in">saeindia@nitdgp.ac.in</Link>
               </div>
             </div>
 
