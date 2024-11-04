@@ -39,7 +39,7 @@ function Footer() {
               <p className="footer-contact">President</p>
               <div className="footer-contact flex-item">
                 <FaEnvelope />
-                <Link className='text-md anchor' to="president.saeindia@nitdgp.ac.in">president.saeindia@nitdgp.ac.in</Link>
+                <Link className='text-md anchor' to="mailto:president.saeindia@nitdgp.ac.in">president.saeindia@nitdgp.ac.in</Link>
 
               </div>
               <div className="footer-contact flex-item">
@@ -54,7 +54,7 @@ function Footer() {
               <p className="footer-contact">Head of Corporate Communication</p>
               <div className="footer-contact flex-item">
                 <FaEnvelope />
-                <Link to="prasant999.sahu@gmail.com" className="text-md anchor">prasant999.sahu@gmail.com</Link>
+                <Link to="mailto:prasant999.sahu@gmail.com" className="text-md anchor">prasant999.sahu@gmail.com</Link>
               </div>
               <div className="footer-contact flex-item">
                 <FaPhoneAlt />

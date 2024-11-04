@@ -89,8 +89,8 @@ export const thirdYear = [
         "url": "https://live.staticflickr.com/65535/52966124605_06b5472610_w.jpg",
         "name": "Namrata Gupta",
         "position": "Senior Coordinator",
-        "instaLink": "",
-        "linkedinLink": "",
+        "instaLink": "https://www.instagram.com/me_namrataax?igsh=NzRiNDB5N2VvaWUz",
+        "linkedinLink": "https://www.linkedin.com/in/namrata-gupta-b22b74259/",
     },
     {
         "url": require("./3rdYearImg/Nisarga Jana.png"),
