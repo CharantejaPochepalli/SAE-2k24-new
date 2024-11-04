@@ -522,6 +522,11 @@
   margin-top: 0px;
 }
 
+@media (max-width: 480px) {
+  .homsubheading h2 {
+    font-size: 2.3rem;
+}
+}
 .homsubheading p {
   font-size: 1.4rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

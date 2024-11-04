@@ -54,7 +54,7 @@ function Navbar() {
           </Link>
 
           <div className="hidden md:flex space-x-8">
-            {["/", "/events", "/teams", "/tedx", "/aarohan", "/alumni", "/autopia"].map((path) => (
+            {["/", "/events", "/teams", "/tedx", "/aarohan", "/alumni", /* "/autopia" */].map((path) => (
               <Link
                 key={path}
                 to={path}
@@ -82,7 +82,7 @@ function Navbar() {
             className={`nav-menu md:hidden fixed top-16 left-0 w-full p-4 rounded-b-md shadow-md z-10 transition-transform duration-300 ease-in-out ${isOpen ? 'translate-y-0 opacity-100 bg-black' : '-translate-y-full opacity-0'}`}
           >
             <div className="flex flex-col space-y-3 ml-12 m-8 justify-center items-center">
-              {["/", "/events", "/teams", "/tedx", "/aarohan", "/alumni", "/autopia"].map((path) => (
+              {["/", "/events", "/teams", "/tedx", "/aarohan", "/alumni",/* "/autopia" */].map((path) => (
                 <Link
                   key={path}
                   to={path}
