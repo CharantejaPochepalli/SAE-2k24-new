@@ -11,15 +11,15 @@ const HomCard = () => {
           className="homimage"
           alt="Aarohan"
         /> */}
-        <img src="https://i.ibb.co/jk56zZY/aarohan.jpg" alt="Aarohan" />
+        <img  className="homimage" src="https://i.ibb.co/khC7fps/Screenshot-2024-11-05-174204.png" alt="Aarohan" />
       </div>
       <div className="homcard loading">
         {/* <img src="./SDV.jpg" className="homimage" alt="SDV" /> */}
-        <img src="https://i.ibb.co/9YjnQqh/sdv.jpg" alt="SDV" />
+        <img className="homimage" src="https://i.ibb.co/pXdWX9g/Screenshot-2024-11-05-173601.png" alt="SDV" />
       </div>
       <div className="homcard loading">
         {/* <img src="./Tedx1.png" className="homimage" alt="TEDx" /> */}
-        <img src="https://i.ibb.co/qj4LYfT/Screenshot-2024-11-04-152155.png" alt="TEDX" />
+        <img className="homimage" src="https://i.ibb.co/vqZW5dC/Screenshot-2024-11-05-171341.png" alt="TEDX" />
       </div>
     </div>
   );
