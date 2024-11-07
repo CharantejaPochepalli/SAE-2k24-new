@@ -18,8 +18,8 @@ const HomCard = () => {
         <img className="homimage" src="https://i.ibb.co/pXdWX9g/Screenshot-2024-11-05-173601.png" alt="SDV" />
       </div>
       <div className="homcard loading">
-        {/* <img src="./Tedx1.png" className="homimage" alt="TEDx" /> */}
-        <img className="homimage" src="https://i.ibb.co/vqZW5dC/Screenshot-2024-11-05-171341.png" alt="TEDX" />
+        <img src="https://i.ibb.co/ZVrCF4f/Screenshot-2024-11-07-105306.png" className="homimage" alt="TEDx" />
+        {/* <img className="homimage" src="https://i.ibb.co/vqZW5dC/Screenshot-2024-11-05-171341.png" alt="TEDX" /> */}
       </div>
     </div>
   );
