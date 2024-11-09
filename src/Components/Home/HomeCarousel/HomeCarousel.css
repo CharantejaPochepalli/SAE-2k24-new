@@ -11,30 +11,36 @@
 .hom-slide {
   position: absolute;
   top: 0;
-  left: 100%;
+  left: 0;
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 0.8s ease, transform 0.8s ease; 
+  transition: opacity 0.8s ease, transform 0.8s ease;
   transform: translateX(-100%);
 }
 
 .hom-slide.active {
   opacity: 1;
-  transform: translateX(0); 
-  left: 0;
-  transition: opacity 0.8s ease, transform 0.8s ease;
+  transform: translateX(0);
   z-index: 1;
 }
 
 .hom-slide-image {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image covers the entire area */
   opacity: 0.8;
-  filter: blur(0.2px); 
+  filter: blur(0.2px);
 }
 
+/* Adjustments for smaller screens to ensure full-height display */
+@media (max-width: 768px) {
+  .hom-slide-image {
+    height: 100vh; /* Forces full viewport height on smaller devices */
+  }
+}
+
+/* Overlay text styling */
 .hom-text-overlay {
   position: absolute;
   top: 0;
@@ -46,10 +52,10 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   z-index: 2;
-  animation: textFadeIn 1s ease forwards; 
+  animation: textFadeIn 1s ease forwards;
   opacity: 0;
 }
 
@@ -78,6 +84,7 @@
   color: red;
 }
 
+/* Navigation button styling */
 .hom-nav-button {
   position: absolute;
   top: 50%;
@@ -97,7 +104,7 @@
 .hom-nav-button:hover {
   background-color: rgba(255, 255, 255, 1);
   color: black;
-  transform: scale(1.15); 
+  transform: scale(1.15);
 }
 
 .hom-prev-button {
@@ -108,7 +115,7 @@
   right: 2rem;
 }
 
-
+/* Responsive adjustments for text and navigation buttons */
 @media (max-width: 768px) {
   .top-heading {
     font-size: 3rem;
@@ -119,7 +126,6 @@
   .hom-nav-button {
     padding: 0.8rem;
     font-size: 1.2rem;
-    margin: 0;
   }
 }
 
@@ -134,20 +140,14 @@
     padding: 0.6rem;
     font-size: 1rem;
   }
-  /* .hom-slide-image{
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    opacity: 0.6;
-    filter: blur(0.1px);
-  } */
 }
-@media (max-width: 400px) {
 
+@media (max-width: 400px) {
   .hom-carousel-description {
     font-size: 1.2rem;
   }
 }
+
 
 /* .carousel-background {
   background-image: url('https://scontent.fdbd3-1.fna.fbcdn.net/v/t1.6435-9/50783929_1130583590443787_1844865350450020352_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=t3uOjUDv4OoQ7kNvgFzRk3a&_nc_zt=23&_nc_ht=scontent.fdbd3-1.fna&_nc_gid=Aheq_Gigc7kpzgQ-vxr7uYs&oh=00_AYBHIdfLRArwvbeYnyeeI8224RhoVrVn9HMZj2tbE2gVww&oe=674D5F74');
