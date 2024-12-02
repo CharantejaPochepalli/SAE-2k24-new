@@ -57,13 +57,13 @@ export const thirdYear = [
         "instaLink": "https://instagram.com/dev_b0073?igshid=NGExMmI2YTkyZg==",
         "linkedinLink": "https://www.linkedin.com/in/debjit-banerjee-88b49526b",
     },
-    {
-        "url": "https://live.staticflickr.com/65535/52965150222_77d6eca948_w.jpg",
-        "name": "Harshit Shukla",
-        "position": "Senior Coordinator",
-        "instaLink": "",
-        "linkedinLink": "",
-    },
+    // {
+    //     "url": "https://live.staticflickr.com/65535/52965150222_77d6eca948_w.jpg",
+    //     "name": "Harshit Shukla",
+    //     "position": "Senior Coordinator",
+    //     "instaLink": "",
+    //     "linkedinLink": "",
+    // },
     // {
     //     "url":"https://live.staticflickr.com/65535/52965744206_776ec301a1_n.jpg",
     //     "name":"Lochan Vaishnav",
@@ -240,13 +240,13 @@ export const thirdYear = [
         "instaLink": "",
         "linkedinLink": "",
     },
-    {
-        "url": require("../Assets/3rdYearImg/Uday Bhaskar.png"),
-        "name": "Uday Bhaskar",
-        "position": "Senior Coordinator",
-        "instaLink": "",
-        "linkedinLink": "https://www.linkedin.com/in/uday-bhaskar-478392264",
-    },
+    // {
+    //     "url": require("../Assets/3rdYearImg/Uday Bhaskar.png"),
+    //     "name": "Uday Bhaskar",
+    //     "position": "Senior Coordinator",
+    //     "instaLink": "",
+    //     "linkedinLink": "https://www.linkedin.com/in/uday-bhaskar-478392264",
+    // },
     {
         "url": require("../Assets/3rdYearImg/Indrajit Das.jpg"),
         "name": "Indrajit Das",

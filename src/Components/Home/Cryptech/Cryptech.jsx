@@ -1,9 +1,10 @@
 import React, { useState, Suspense, lazy } from 'react';
 import './Cryptech.css';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 const ReactPlayer = lazy(() => import('react-player'));
 const videos = [
+  "XhYBorFI3Tg",
   "j_6sNtASHgU",
   "o7fcf5chrTo",
   "JrXKyNwJAvQ",
@@ -17,7 +18,7 @@ const videos = [
 
 const Cryptech = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const handlePlayVideo = () => {
     setIsVideoPlaying(true);
@@ -43,18 +44,19 @@ const Cryptech = () => {
               <ReactPlayer
                 className="homreact-player"
                 controls
-                url="https://youtu.be/XhYBorFI3Tg?si=aueHXYsFgZ3YdMn9"
+                // url="https://youtu.be/XhYBorFI3Tg?si=aueHXYsFgZ3YdMn9"
+                url="https://www.youtube.com/watch?v=JcA4EF9z9-I&t=1s"
                 width="100%"
                 height="100%"
               />
             </Suspense>
           ) : (
             <img
-              src="https://img.youtube.com/vi/XhYBorFI3Tg/0.jpg"
+              src="https://i.ytimg.com/vi/JcA4EF9z9-I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCi7lewxTaq93gztVRa-NpOwlDPlg"
               alt="Video Thumbnail"
               className="homthumbnail"
               onClick={handlePlayVideo}
-              style={{ cursor: 'pointer', width: '100%', height: '100%' }}
+              style={{ cursor: 'pointer',objectFit:"fill", width: '100%', height: '100%' }}
             />
           )}
         </div>
