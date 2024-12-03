@@ -21,7 +21,7 @@ const speakers = [
   {
     name: 'Dr. Yogendra Singh Rathore',
     role: 'NLP expert, Mental health coach',
-    imgSrc: 'https://images.mid-day.com/images/images/2022/sep/NLP1_e.jpg'
+    imgSrc: 'https://gunigurumedia.s3.ap-south-1.amazonaws.com/media-library/80/OjbI1moasKAEQHOF7zDKZ5oPvZNe5ejzWos85AoD.jpg'
   },
   {
     name: 'Aanchal Thakur',
