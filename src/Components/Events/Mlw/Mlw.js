@@ -4,7 +4,7 @@ import "./Mlw.css"
 const Mlw = () => {
     const galleryImages = [
       "https://i.ibb.co/9cLpg9D/Whats-App-Image-2024-11-06-at-20-28-18-92e1f6f0.jpg", 
-      "https://i.ibb.co/yVdMykV/Whats-App-Image-2024-11-06-at-20-28-18-95f656c0.jpg", 
+      "https://i.ibb.co/1XNLJqL/Screenshot-2024-12-26-164153.png", 
     
      
     ];
