@@ -15,7 +15,7 @@ const HomCard = () => {
       </div>
       <div className="homcard loading">
         {/* <img src="./SDV.jpg" className="homimage" alt="SDV" /> */}
-        <img className="homimage" src="https://i.ibb.co/pXdWX9g/Screenshot-2024-11-05-173601.png" alt="SDV" />
+        <img className="homimage" src="https://i.ibb.co/nPzkd2P/SDVIMG15.jpg" alt="SDV" />
       </div>
       <div className="homcard loading">
         <img src="https://i.ibb.co/ZVrCF4f/Screenshot-2024-11-07-105306.png" className="homimage" alt="TEDx" />
