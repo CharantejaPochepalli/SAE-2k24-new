@@ -61,7 +61,7 @@ const TedxSec = () => {
         className={`TedxSec-heading ${headingInView ? 'in-view' : ''}`}
         ref={headingRef}
       >
-        Tedx
+       TEDxNIT Durgapur
       </h1>
       <p
         className={`TedxSec-paragraph ${paragraphInView ? 'in-view' : ''}`}
